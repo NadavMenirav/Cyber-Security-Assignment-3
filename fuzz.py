@@ -1,5 +1,6 @@
+# I wrote this script in order to not guess all the possible paths that lead to deleting the messages
+
 import requests
-import time
 import warnings
 warnings.filterwarnings('ignore')  # silence the SSL warnings
 
@@ -26,7 +27,6 @@ for path in paths:
         if response.status_code != 404:
             print(f'FOUND: {url} - status: {response.status_code}')
     except:
-        pass  # ignore errors silently
+        pass  # ignore errors
 
-time.sleep(0.05)
 print("Done!")

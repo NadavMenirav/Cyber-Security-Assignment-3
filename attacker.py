@@ -1,3 +1,5 @@
+# I wrote this script in order to listen to the logins and take the cookie of the strong user!
+
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 
