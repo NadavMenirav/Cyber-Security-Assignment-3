@@ -1,3 +1,6 @@
+# I wrote this script in order to do the final stage in Seif Beit: delete the actual messages
+# After finding the session and the correct path we just send a request to this path using the cookie
+
 import requests
 import warnings
 warnings.filterwarnings('ignore')
